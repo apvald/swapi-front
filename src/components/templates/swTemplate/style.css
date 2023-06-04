@@ -1,0 +1,6 @@
+
+
+.main {
+  height: calc(100% - var(--nav-height));
+  display: flex;
+}

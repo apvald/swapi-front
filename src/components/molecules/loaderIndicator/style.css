@@ -1,0 +1,14 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  margin: 16px;
+}
+
+.loader-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.loader h2 {
+  margin-left: 8px;
+}

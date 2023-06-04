@@ -1,0 +1,14 @@
+.data-cell {
+  margin: 16px 16px 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.data-cell--wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.data-cell h2 {
+  padding: 0 16px;
+}

@@ -1,0 +1,16 @@
+:root {
+  --ravn-black: #121212;
+  --dark: #333333;
+  --dark-light: #828282;
+  --light: #EEEEEE;
+  --emphasis: #ec5757;
+  --nav-height: 50px;
+}
+
+html, body, #root {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: 100vh;
+}

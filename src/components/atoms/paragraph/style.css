@@ -1,0 +1,8 @@
+p {
+  margin: 0;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 1);
+}
+p.low {
+  color: rgba(0, 0, 0, 0.5);
+}

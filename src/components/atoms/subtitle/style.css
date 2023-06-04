@@ -1,0 +1,34 @@
+h2, .h2 {
+  margin: 0;
+  font-size: 17px;
+  height: max-content;
+}
+
+h2, .h2 {
+  color: rgba(0,0,0,1);
+}
+h2.low, .h2.low {
+  color: rgba(0,0,0,0.3);
+}
+h2.high, .h2.high {
+  color: rgba(235,87,87,1);
+}
+h2.light, .h2.light {
+  color: var(--light);
+}
+
+.sub-web {
+  display: block;
+}
+.sub-mob {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .sub-web {
+    display: none;
+  }
+  .sub-mob {
+    display: block;
+  }
+}
