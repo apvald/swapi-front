@@ -16,6 +16,6 @@ interface SubtitleProps extends React.PropsWithChildren {
 */
 export default function Subtitle ( {color, children, className} : SubtitleProps) {
   return (
-    <h2 className={ color+(className?' '+ className:'') }> {children} </h2>
+    <h2 className={ (color?color:'')+(className?' '+ className:'') }> {children} </h2>
   )
 }

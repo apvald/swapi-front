@@ -54,7 +54,7 @@ export default function Sidebar({ setPerson, isPersonSelected }: SidebarProps) {
         // De existir los personajes, se muestran
         : (
           <>
-            {data.listPeople.slice(0, 7).map((character: ICharacter) => (
+            {data.listPeople.map((character: ICharacter) => (
               <button
                 type="button"
                 key={character.id}
