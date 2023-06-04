@@ -1,11 +1,7 @@
 import SwPage from './components/pages/swPage';
 import './App.css'
 
-/**
- * Returns App // Aplicación Principal
- *   
- * Componente App
-*/
+/** Componente App, Aplicación Principal */
 function App() {
 
   return (

@@ -6,7 +6,7 @@ import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 
 /* Creación de Apollo Client */
 const client = new ApolloClient({
-  uri: ' https://swapi-gql-back.vercel.app', // 'http://localhost:4000/'
+  uri: 'https://swapi-gql-back.vercel.app', // 'http://localhost:4000/'
   cache: new InMemoryCache(),
 });
 

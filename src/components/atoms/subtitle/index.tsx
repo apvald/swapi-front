@@ -1,9 +1,6 @@
 import './style.css'
 
-/**
- * Interface para los props de Subtitle
- * @interface
-*/
+/** Interface para los props de Subtitle */
 interface SubtitleProps extends React.PropsWithChildren {
   color?: 'low' | 'high' | 'light'
   className?: string
@@ -13,7 +10,6 @@ interface SubtitleProps extends React.PropsWithChildren {
  * Returns Subtitle // 'h2'
  *   
  * Componente para un subtítulo
- * @typedef {Object} SubtitleProps
  * @prop {string} color
  * @prop {React.ReactElement} children
  * @prop {string} className

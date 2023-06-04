@@ -2,6 +2,7 @@ import LoaderIcon from '../../atoms/LoaderIcon'
 import Subtitle from '../../atoms/subtitle'
 import './style.css'
 
+/** Componente LoaderIndicator */
 export default function LoaderIndicator () {
   return (
     <div className='loader'>

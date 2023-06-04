@@ -1,19 +1,14 @@
 import './style.css'
 
-/**
- * Interface para los props de Paragraph
- * @interface
-*/
+/** Interface para los props de Paragraph */
 interface ParagraphProps extends React.PropsWithChildren {
   color?: 'low'
 }
-
 
 /**
  * Returns Paragraph // 'p'
  *   
  * Componente para un parrafo
- * @typedef {Object} ParagrahProps
  * @prop {string} color
  * @prop {React.ReactElement} children
 */

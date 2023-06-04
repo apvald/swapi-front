@@ -5,11 +5,7 @@ import Sidebar from "../../organisms/sidebar";
 
 import './style.css'
 
-/**
- * Returns SwTemplate // Start Wars Template for Page
- *   
- * Componente SwTemplate
-*/
+/** Componente SwTemplate, Start Wars Template for Page */
 export default function SwTemplate() {
 
   /** 
